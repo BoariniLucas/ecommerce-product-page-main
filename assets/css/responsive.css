@@ -1,0 +1,27 @@
+@media screen and (max-width: 375px) {
+    .burguer {
+        display: none;
+    }
+
+    .menu-itens {
+        height: 35px;
+        padding: 4.5%;
+    }
+
+    .user-navbar {
+        float: right; 
+    }
+
+    .avatar-img {       
+        height: 20px;
+        width: 20px;
+    }
+
+    .cart-img {        
+        margin-right: 15px;
+    }
+
+    
+}
+
+

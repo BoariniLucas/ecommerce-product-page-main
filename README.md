@@ -18,9 +18,9 @@ Nesse projeto temos como proposta criar uma página de um site e-commerce, respe
 
 Abaixo o processo para criação do site:
 
+- [ ] Desenvolvimento da Navbar Desktop e Mobile
 - [ ] Criação do layout para mobile
-  - [ ] Menu hamburguer
-  - [ ] desenvolvimento da Navbar
+  - [ ] Menu hamburguer  
   - [ ] Criação do carrossel
 - [ ] Adaptação do layout para desktop
 - [ ] Desenvolvimento do carrinho
