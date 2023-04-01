@@ -1,5 +1,10 @@
 @media screen and (max-width: 375px) {
 
+    .header {
+        height: 35px;
+        padding: 4.5%;
+    }
+
     /* menu hamburguer */
     .burguer {
         display: block;
@@ -37,16 +42,9 @@
         font-weight: 700;
         margin-bottom: 2rem;
     }
-   
-    .header {
-        height: 35px;
-        padding: 4.5%;
-    }
 
     .user-navbar {
-        
         float: right;
-        
     }
 
     .avatar-img {       
@@ -56,6 +54,54 @@
 
     .cart-img {        
         margin-right: 15px;
+    }
+
+    .pop-up-cart {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 15px;
+        height: 225px;
+        width: 345px;
+        border-radius: 15px;
+        background-color: brown;
+    }
+
+    .image-carrocel {
+        background-image: url(../images/image-product-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 100vw;
+        height: 320px;
+        background-color: brown;
+    }
+
+    .btn-img-previous {    
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        padding: 0px;
+        margin: 130px 10px 0px;        
+        background-color: #fff;        
+    }
+
+    .btn-img-previous img {
+        margin-right: 5px;
+    }
+
+    .btn-img-next {
+        float: right;
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        padding: 0px;
+        margin: 130px 10px 0px;        
+        background-color: #fff; 
+    }
+
+    .btn-img-next img {
+        margin-left: 5px;
     }
 
     

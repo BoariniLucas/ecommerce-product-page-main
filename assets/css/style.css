@@ -53,7 +53,7 @@ button {
     .burguer ul li {
         list-style-type: none;
         margin: 0px 7px;
-        padding-bottom: 20px;
+        padding-bottom: 18px;
         color: var(--navbarFontColor);
     }
 
