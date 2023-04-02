@@ -56,7 +56,10 @@
         </div>
 
         <div class="image-thumbnail">
-
+          <button id="btn-img1" onclick="changeImage(this.value)" value="1" class="tumbnail-item1"></button>
+          <button id="btn-img2" onclick="changeImage(this.value)" value="2" class="tumbnail-item2"></button>
+          <button id="btn-img3" onclick="changeImage(this.value)" value="3" class="tumbnail-item3"></button>
+          <button id="btn-img4" onclick="changeImage(this.value)" value="4" class="tumbnail-item4"></button>
         </div>
         
       </section>
@@ -70,31 +73,32 @@
           <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
             durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
         </div>
-      </section>
 
-      <section class="price-details">
-        <label class="price-whit-descount">$125.00</label>
+        <div class="price-details">
+          <label class="price-whit-descount">$125.00</label>
 
-        <label class="discount">50%</label>
+          <label class="discount">50%</label>
 
-        <label class="old-price">$250.00</label> 
+          <label class="old-price">$250.00</label> 
 
-        <div class="product-amount">          
-          <button class="btn-minus">
-            <img src="./assets/images/icon-minus.svg">
+          <div class="product-amount">          
+            <button class="btn-minus">
+              <img src="./assets/images/icon-minus.svg">
+            </button>
+                      
+            <label>0</label>
+
+            <button class="btn-plus">
+              <img src="./assets/images/icon-plus.svg">
+            </button>          
+          </div>
+
+          <button class="btn-cart">
+            <img src="./assets/images/icon-cart-white.svg">
+            Add to cart
           </button>
-                    
-          <label>0</label>
-
-          <button class="btn-plus">
-            <img src="./assets/images/icon-plus.svg">
-          </button>          
         </div>
 
-        <button class="btn-cart">
-          <img src="./assets/images/icon-cart-white.svg">
-          Add to cart
-        </button>
       </section>      
     </main>
 
