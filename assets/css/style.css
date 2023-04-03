@@ -225,7 +225,7 @@ h1 {
     }
 
     .principal-image {
-        background: url(../images/image-product-1.jpg);
+        background-image: url(../images/image-product-1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         height: 410px;
@@ -247,15 +247,20 @@ h1 {
         margin: 0px auto;
     }
 
-    .image-thumbnail button {
-        background-repeat: no-repeat;
-        background-size: cover;
+    .image-thumbnail div {        
         height: 80px;
         width: 80px;
         border-radius: 15px;
         margin: 3% auto;
-        cursor: pointer;
+        box-sizing: border-box;
     }
+
+    .image-thumbnail button {
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        cursor: pointer;
+    }  
 
     .image-thumbnail button:hover {
         opacity: 0.5;
@@ -263,18 +268,30 @@ h1 {
     
     .tumbnail-item1 {
         background: url(../images/image-product-1-thumbnail.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .tumbnail-item2 {
         background: url(../images/image-product-2-thumbnail.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .tumbnail-item3 {
         background: url(../images/image-product-3-thumbnail.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     .tumbnail-item4 {
         background: url(../images/image-product-4-thumbnail.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     } 
 
     .product-details {
@@ -332,6 +349,5 @@ h1 {
     .btn-cart:hover {
         opacity: 0.5;
     }
-
     
 }

@@ -18,12 +18,17 @@ Nesse projeto temos como proposta criar uma página de um site e-commerce, respe
 
 Abaixo o processo para criação do site:
 
-- [ ] Desenvolvimento da Navbar Desktop e Mobile
-- [ ] Criação do layout para mobile
-  - [ ] Menu hamburguer  
-  - [ ] Criação do carrossel
-- [ ] Adaptação do layout para desktop
-- [ ] Desenvolvimento do carrinho
+- [X] Desenvolvimento da Navbar Desktop e Mobile.
+- [X] Menu hamburguer para mobile.
+- [X] Section descrição de produto (Mobile).
+- [X] Campos dos valores (Mobile).
+- [X] Acertar layout para desktop, espaçamento dos elementos.
+- [X] Implementar função para alterar fotos (Desktop).
+- [ ] Carrocel para alterar fotos (Desktop).
+- [ ] Carrocel para alterar fotos (Mobile).
+- [ ] Implementar função de contagem de itens .
+- [ ] Desenvolvimento do pop-up carrinho.
+- [ ] Criar funções para controle do carrinho.
 
 ### Construido com
 

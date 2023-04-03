@@ -30,7 +30,6 @@
             <li><a>About</a></li>
             <li><a>Contact</a></li>
           </ul>
-          <div class="teste"></div>
         </nav>   
         
         <div class="user-navbar">
@@ -45,7 +44,7 @@
 
     <main>
       <section class="img-product">
-        <div class="principal-image">
+        <div id="img-principal" class="principal-image">
           <button class="btn-img-previous">
             <img src="./assets/images/icon-previous.svg">
           </button>
@@ -56,10 +55,10 @@
         </div>
 
         <div class="image-thumbnail">
-          <button id="btn-img1" onclick="changeImage(this.value)" value="1" class="tumbnail-item1"></button>
-          <button id="btn-img2" onclick="changeImage(this.value)" value="2" class="tumbnail-item2"></button>
-          <button id="btn-img3" onclick="changeImage(this.value)" value="3" class="tumbnail-item3"></button>
-          <button id="btn-img4" onclick="changeImage(this.value)" value="4" class="tumbnail-item4"></button>
+          <div><button id="btn-img1" onclick="changeImage(this.value)" value="1" class="tumbnail-item1"></button></div>
+          <div><button id="btn-img2" onclick="changeImage(this.value)" value="2" class="tumbnail-item2"></button></div>
+          <div><button id="btn-img3" onclick="changeImage(this.value)" value="3" class="tumbnail-item3"></button></div>
+          <div><button id="btn-img4" onclick="changeImage(this.value)" value="4" class="tumbnail-item4"></button></div>
         </div>
         
       </section>
