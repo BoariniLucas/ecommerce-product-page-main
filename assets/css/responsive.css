@@ -25,7 +25,7 @@
         width: 50vw;
         visibility: visible;
         overflow-x: auto;
-        box-shadow: 50vw 0px 0.5px #00000088;
+        box-shadow: 50vw 0px 0.5px var(--shadowColor);
     }
 
     .menu-img {
@@ -52,7 +52,7 @@
         width: 20px;
     }
 
-    .cart-img {        
+    .btn-cart-img {        
         margin-right: 15px;
     }
 
@@ -62,18 +62,18 @@
     /* codigo abaixo incompleto */
     /* códigocomentado para continuar depois */
 
-    /*
+    
     .pop-up-cart {
-        display: none;
+        display: block;
         position: absolute;
         top: 70px;
         left: 15px;
-        height: 225px;
+        height: 270px;
         width: 345px;
         border-radius: 15px;
         background-color: brown;
     }
-*/
+
 
 
 

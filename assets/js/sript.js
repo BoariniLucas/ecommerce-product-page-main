@@ -6,8 +6,10 @@ const btnImg1Thumb = document.querySelector('.tumbnail-item1');
 const btnImg2Thumb = document.querySelector('.tumbnail-item2');
 const btnImg3Thumb = document.querySelector('.tumbnail-item3');
 const btnImg4Thumb = document.querySelector('.tumbnail-item4');
-
 const principalImageSlideCarousel = document.querySelector('.principal-image-slide-carousel');
+const btnCartPopUp = document.querySelector('#btn-cart-pop-up');
+
+const qtdProduct = 0;
 
 
 
@@ -18,6 +20,8 @@ const principalImageSlideCarousel = document.querySelector('.principal-image-sli
 btnMenuBurguer.addEventListener('click', toggleMenu);
 btnCloseMenu.addEventListener('click', toggleMenu);
 
+btnCartPopUp.addEventListener('click', toggleCart);
+
 
 /*   --Functions--   */
 
@@ -26,6 +30,12 @@ function toggleMenu() {
     const menuBurguer = document.querySelector('#menu-burguer');
 
     menuBurguer.classList.toggle('active');
+}
+
+function toggleCart() {
+    const popUpCart = document.querySelector('#cart-box-pop-up');
+
+    popUpCart.classList.toggle('active');
 }
 
 function changeImage(imageIten) {
@@ -54,25 +64,17 @@ function changeImage(imageIten) {
 
 function changeImagePop(imageIten) {
     if (imageIten == 1) {
-      resetBroder();
       principalImageSlideCarousel.style.backgroundImage = "url(assets/images/image-product-1.jpg)";
-      btnImg1Thumb.style.border = "solid #ff7d1b";
   
       } else if (imageIten == 2) {
-          resetBroder();
           
           principalImageSlideCarousel.style.backgroundImage = "url(assets/images/image-product-2.jpg)";
-          btnImg2Thumb.style.border = "solid #ff7d1b";
           
       } else if (imageIten == 3) {
-          resetBroder();
           principalImageSlideCarousel.style.backgroundImage = "url(assets/images/image-product-3.jpg)";
-          btnImg3Thumb.style.border = "solid #ff7d1b";
   
       } else {
-          resetBroder();
           principalImageSlideCarousel.style.backgroundImage = "url(assets/images/image-product-4.jpg)";
-          btnImg4Thumb.style.border = "solid #ff7d1b";
       }  
   }
 

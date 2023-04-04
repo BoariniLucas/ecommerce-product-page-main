@@ -16,7 +16,7 @@
   <title>E-commerce product page</title>
 </head>
   <body>
-    <header>
+    <header class="container">
         <button id="btn-burguer-img" type="submit" class="btn-menu"><img  class="burguer-img" src="./assets/images/icon-menu.svg"></button>
         
         <img class="logo-img" src="./assets/images/logo.svg">
@@ -33,11 +33,29 @@
         </nav>   
         
         <div class="user-navbar">
-          <img class="cart-img" src="./assets/images/icon-cart.svg">
+          <button id="btn-cart-pop-up" class="btn-cart-img"><img src="./assets/images/icon-cart.svg"></button>
           <img class="avatar-img" src="./assets/images/image-avatar.png">
         </div>
 
-        <div class="pop-up-cart">  
+        <div id="cart-box-pop-up" class="pop-up-cart">
+
+            <div class="cart-box-title">
+              <span>Cart</span>
+            </div>
+
+            <div class="content-box-price">
+              
+              <div class="content-box-img">
+                <img href=".//assets/images/image-product-1-thumbnail.jpg">
+              </div>
+                            
+                <p>Fall Limited Edition Sneakers $125,00 x 3 <strong>$375,00</strong></p>
+
+              <button class="btn-delete"><img src="./assets/images/icon-delete.svg"></button>                 
+
+              
+            </div>
+            <button class="btn-checkout">Checkout</button>
 
         </div>
     </header>
@@ -48,20 +66,20 @@
 
         <div class="background-carousel">
           <div id="image-slide-carousel" class="principal-image-slide-carousel">
-            <button class="btn-img-previous">
+            <button id="button-previous" class="btn-img-previous">
               <img src="./assets/images/icon-previous.svg">
             </button>
 
-            <button class="btn-img-next">
+            <button id="button-next" class="btn-img-next">
               <img src="./assets/images/icon-next.svg">
             </button>
           
 
             <div class="image-thumbnail-pop-up">
-              <div><button id="btn-img1" onclick="changeImagePop(this.value)" value="1" class="tumbnail-item1"></button></div>
-              <div><button id="btn-img2" onclick="changeImagePop(this.value)" value="2" class="tumbnail-item2"></button></div>
-              <div><button id="btn-img3" onclick="changeImagePop(this.value)" value="3" class="tumbnail-item3"></button></div>
-              <div><button id="btn-img4" onclick="changeImagePop(this.value)" value="4" class="tumbnail-item4"></button></div>
+              <div><button id="btn-img1-pop" onclick="changeImagePop(this.value)" value="1" class="tumbnail-item1"></button></div>
+              <div><button id="btn-img2-pop" onclick="changeImagePop(this.value)" value="2" class="tumbnail-item2"></button></div>
+              <div><button id="btn-img3-pop" onclick="changeImagePop(this.value)" value="3" class="tumbnail-item3"></button></div>
+              <div><button id="btn-img4-pop" onclick="changeImagePop(this.value)" value="4" class="tumbnail-item4"></button></div>
             </div>  
 
           </div>
