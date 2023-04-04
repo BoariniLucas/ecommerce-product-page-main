@@ -77,7 +77,7 @@
 
 
 
-    .principal-image {
+    .principal-image-slide-carousel {
         background-image: url(../images/image-product-1.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -87,6 +87,10 @@
     }
 
     .image-thumbnail {
+        display: none;
+    }
+
+    .image-thumbnail-pop-up {
         display: none;
     }
 

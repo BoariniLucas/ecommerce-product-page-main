@@ -216,14 +216,6 @@ h1 {
         width: 50vw;
     }
 
-    .btn-img-previous {
-        display: none;
-    }
-
-    .btn-img-next {
-        display: none;
-    }
-
     .principal-image {
         background-image: url(../images/image-product-1.jpg);
         background-repeat: no-repeat;
@@ -234,11 +226,57 @@ h1 {
         margin: 0px auto;
     }
 
-    .pop-up-image {
+    .background-carousel {
+        display: none;
         position: absolute;
-        height: 410px;
-        width: 410px;
-        background-color: blue;
+        top: 0;
+        left: 0;
+        height: 850px;
+        width: 100%;
+        background-color: #00000098;
+    }
+
+    .principal-image-slide-carousel {
+        position: absolute;
+        background-image: url(../images/image-product-1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 10%;
+        left: 35%;
+        justify-content: center;
+        align-items: center;
+        height: 450px;
+        width: 450px;
+        border-radius: 15px;
+    }
+    
+    .btn-img-previous {
+        float: left;
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        margin: 30vh 0;
+        background-color: #fff;
+        
+    }
+
+    .btn-img-previous img {
+        margin-top: 5px;
+        margin-right: 5px;
+    }
+
+    .btn-img-next {
+        float: right;
+        border-radius: 50px;
+        height: 40px;
+        width: 40px;
+        margin: 30vh 0;
+        background-color: #fff;
+    }
+
+    .btn-img-next img {
+        margin-top: 5px;
+        margin-left: 5px;
     }
 
     .image-thumbnail {
@@ -293,6 +331,31 @@ h1 {
         background-position: center;
         background-size: cover;
     } 
+
+    .image-thumbnail-pop-up {
+        display: flex;
+        width: 410px;
+        margin: 450px auto;
+    }
+
+    .image-thumbnail-pop-up div {
+        height: 80px;
+        width: 80px;
+        border-radius: 15px;
+        margin: 3% auto;
+        box-sizing: border-box;
+    }
+
+    .image-thumbnail-pop-up button {
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        cursor: pointer;
+    }  
+
+    .image-thumbnail-pop-up button:hover {
+        opacity: 0.5;
+    }
 
     .product-details {
         flex-basis: 50%;

@@ -44,14 +44,27 @@
 
     <main>
       <section class="img-product">
-        <div id="img-principal" class="principal-image">
-          <button class="btn-img-previous">
-            <img src="./assets/images/icon-previous.svg">
-          </button>
+        <div id="img-principal" class="principal-image"></div>
 
-          <button class="btn-img-next">
-            <img src="./assets/images/icon-next.svg">
-          </button>
+        <div class="background-carousel">
+          <div id="image-slide-carousel" class="principal-image-slide-carousel">
+            <button class="btn-img-previous">
+              <img src="./assets/images/icon-previous.svg">
+            </button>
+
+            <button class="btn-img-next">
+              <img src="./assets/images/icon-next.svg">
+            </button>
+          
+
+            <div class="image-thumbnail-pop-up">
+              <div><button id="btn-img1" onclick="changeImagePop(this.value)" value="1" class="tumbnail-item1"></button></div>
+              <div><button id="btn-img2" onclick="changeImagePop(this.value)" value="2" class="tumbnail-item2"></button></div>
+              <div><button id="btn-img3" onclick="changeImagePop(this.value)" value="3" class="tumbnail-item3"></button></div>
+              <div><button id="btn-img4" onclick="changeImagePop(this.value)" value="4" class="tumbnail-item4"></button></div>
+            </div>  
+
+          </div>
         </div>
 
         <div class="image-thumbnail">
@@ -59,8 +72,7 @@
           <div><button id="btn-img2" onclick="changeImage(this.value)" value="2" class="tumbnail-item2"></button></div>
           <div><button id="btn-img3" onclick="changeImage(this.value)" value="3" class="tumbnail-item3"></button></div>
           <div><button id="btn-img4" onclick="changeImage(this.value)" value="4" class="tumbnail-item4"></button></div>
-        </div>
-        
+        </div>        
       </section>
 
       <section class="product-details">

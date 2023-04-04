@@ -24,8 +24,9 @@ Abaixo o processo para criação do site:
 - [X] Campos dos valores (Mobile).
 - [X] Acertar layout para desktop, espaçamento dos elementos.
 - [X] Implementar função para alterar fotos (Desktop).
-- [ ] Carrocel para alterar fotos (Desktop).
-- [ ] Carrocel para alterar fotos (Mobile).
+- [X] Design carrocel para alterar fotos (Desktop).
+- [ ] Funcionalidade carrocel (Desktop).
+- [ ] Funcionalidade carrocel para alterar fotos (Mobile).
 - [ ] Implementar função de contagem de itens .
 - [ ] Desenvolvimento do pop-up carrinho.
 - [ ] Criar funções para controle do carrinho.
