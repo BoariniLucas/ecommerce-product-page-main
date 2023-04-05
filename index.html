@@ -43,19 +43,22 @@
               <span>Cart</span>
             </div>
 
-            <div class="content-box-price">
-              
+            <div id="empty-cart-form" class="empty-cart">Your cart is empty.</div>
+
+            <div id="box-content-price" class="content-box-price">              
               <div class="content-box-img">
                 <img href=".//assets/images/image-product-1-thumbnail.jpg">
               </div>
                             
-                <p>Fall Limited Edition Sneakers $125,00 x 3 <strong>$375,00</strong></p>
+                <p>Fall Limited Edition Sneakers $125,00 x 
+                  <a id="qtd-item-display-pop-up">0</a> 
+                  <strong id="total-price-display">$0,00</strong>
+                </p>
 
-              <button class="btn-delete"><img src="./assets/images/icon-delete.svg"></button>                 
+              <button class="btn-delete"><img src="./assets/images/icon-delete.svg"></button>                  
+              </div>
 
-              
-            </div>
-            <button class="btn-checkout">Checkout</button>
+            <button id="btn-checkout-pop-up" class="btn-checkout">Checkout</button>
 
         </div>
     </header>
@@ -111,18 +114,18 @@
           <label class="old-price">$250.00</label> 
 
           <div class="product-amount">          
-            <button class="btn-minus">
+            <button id="btn-minus-product" class="btn-minus">
               <img src="./assets/images/icon-minus.svg">
             </button>
                       
-            <label>0</label>
+            <label id="qtd-item-display">0</label>
 
-            <button class="btn-plus">
+            <button id="btn-plus-product" class="btn-plus">
               <img src="./assets/images/icon-plus.svg">
             </button>          
           </div>
 
-          <button class="btn-cart">
+          <button id="btn-add-cart" class="btn-cart">
             <img src="./assets/images/icon-cart-white.svg">
             Add to cart
           </button>
