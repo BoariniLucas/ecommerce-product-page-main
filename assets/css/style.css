@@ -45,7 +45,7 @@ h1 {
 /* --Class-- */
 
 .pop-up-cart {
-    visibility: hidden;
+    /*visibility: hidden;*/
     position: absolute;
     border-radius:  15px;
     box-sizing: border-box;
@@ -58,7 +58,48 @@ h1 {
     visibility: visible;
 }
 
+.cart-box-title {
+    height: 6vh;
+    width: 100%;
+    padding: 10px;
+    border-bottom: solid var(--lineSplitColor);
+    box-sizing: border-box;
 
+}
+
+.content-box-img {
+    background-image: url(../images/image-product-1-thumbnail.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.content-box-price {
+    display: flex;
+    align-items: center;
+    padding: 15px 5px;
+}
+
+.cart-box-title span {
+    font-weight: bold;
+}   
+
+.content-box-price p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-checkout {
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 38px;
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ff7d18;
+}
 
 .product-details p {
     font-size: 15px;
@@ -248,32 +289,6 @@ h1 {
         margin-right: 3.5%;
     }
 
-    .cart-box-title {
-        height: 5vh;
-        width: 100%;
-        border-bottom: solid var(--lineSplitColor);
-
-    }
-    
-    .cart-box-title span {
-        font-weight: bold;
-    }    
-
-    .content-box-price {
-        display: flex;
-        align-items: center;
-        padding: 15px 5px;
-    }
-
-    .content-box-img {
-        background-image: url(../images/image-product-1-thumbnail.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 55px;
-        width: 100px;
-        border-radius: 5px;
-    }
-
     .content-box-price p {
         line-height: 22px;
         font-size: 15px;
@@ -281,25 +296,12 @@ h1 {
         color: var(--navbarFontColor);
     }
 
-    .content-box-price p strong {
-        font-weight: bold;
-        color: #000;
-    }
+
 
     .btn-delete {
         width: 15px;
         margin: 0 5px;
         cursor: pointer;
-    }
-
-    .btn-checkout {
-        font-weight: bold;
-        font-family: 'Kumbh Sans', sans-serif;
-        height: 38px;
-        width: 100%;
-        border-radius: 5px;
-        color: #fff;
-        background-color: #ff7d18;
     }
 
     .btn-checkout:hover {

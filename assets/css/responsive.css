@@ -63,15 +63,35 @@
     /* códigocomentado para continuar depois */
 
     
-    .pop-up-cart {
-        display: block;
+    .pop-up-cart { 
         position: absolute;
         top: 70px;
         left: 15px;
         height: 270px;
         width: 345px;
+        padding: 5%;
         border-radius: 15px;
-        background-color: brown;
+        background-color: var(--mainBgColor);
+    }
+
+    .cart-box-title {
+        height: 8vh;
+    }
+
+    .content-box-price {
+        margin: 10px 0;
+    }
+
+    .content-box-price p {
+        line-height: 22px;
+        font-size: 15px;
+        margin-left: 10px;
+        color: var(--navbarFontColor);
+    }
+
+    .btn-checkout {
+        height: 45px;
+        margin: 10px 0;
     }
 
 
