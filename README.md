@@ -28,7 +28,7 @@ Abaixo o processo para criação do site:
 - [X] Desenvolvimento do pop-up do carrinho (Desktop).
 - [X] Adaptando pop-up do carrinho para mobile.
 - [X] Implementar função de contagem de itens carrinho.
-- [ ] Criar funções para controle do carrinho.
+- [X] Criar funções para controle do carrinho.
 - [ ] Funcionalidade carrocel (Desktop).
 - [ ] Funcionalidade carrocel para alterar fotos (Mobile).
 
