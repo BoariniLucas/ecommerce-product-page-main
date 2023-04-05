@@ -44,6 +44,23 @@ h1 {
 
 /* --Class-- */
 
+.qtd-item-span {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 8px;
+    padding: 0.8px 5.5px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: var(--btnCartColor);
+}
+
+.qtd-item-span.active {
+    visibility: visible;
+}
+
 .pop-up-cart {
     visibility: hidden;
     position: absolute;
@@ -277,6 +294,11 @@ h1 {
     .user-navbar {
         justify-content: right;
         align-items: center;
+    }
+
+    .qtd-item-span {
+        margin-right: 9%;
+        margin-top: 1.8%;
     }
 
     .btn-cart-img {

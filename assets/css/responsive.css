@@ -56,12 +56,10 @@
         margin-right: 15px;
     }
 
-
-
-
-    /* codigo abaixo incompleto */
-    /* códigocomentado para continuar depois */
-
+    .qtd-item-span {
+        margin-right: 15%;
+        margin-top: 4%;
+    }
     
     .pop-up-cart { 
         position: absolute;

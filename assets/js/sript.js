@@ -14,6 +14,11 @@ const qtdItemDisplay = document.querySelector('#qtd-item-display');
 const totalPriceDisplay = document.querySelector('#total-price-display');
 const qtdItemDisplayPopUp = document.querySelector('#qtd-item-display-pop-up');
 const btnAddCart = document.querySelector('#btn-add-cart');
+const btnDeletePopUp = document.querySelector('#btn-delete-pop-up');
+const boxContentPrice = document.querySelector('#box-content-price');
+const emptyCartForm = document.querySelector('#empty-cart-form');
+const btnCheckoutPopUp = document.querySelector('#btn-checkout-pop-up');
+const spanQtdItem = document.querySelector('#span-qtd-item');
 
 
 let productPrice = 125;
@@ -21,9 +26,7 @@ let qtdProduct = 0;
 let totalPrice = 0;
 
 
-btnAddCart.addEventListener('click', () => {
-        addCartPopUpResult();
-});
+
 
 
 
@@ -41,9 +44,13 @@ btnPlusProduct.addEventListener('click', () => {
     qtdItemDisplay.innerHTML = qtdProduct;
 });
 
+btnAddCart.addEventListener('click', () => {
+        addCartPopUpResult();
+});
 
-
-
+btnDeletePopUp.addEventListener('click', () => {
+    deleteCartItens();
+});
 
 /* Toggle menu */
 btnMenuBurguer.addEventListener('click', toggleMenu);
@@ -67,24 +74,21 @@ function toggleCart() {
 }
 
 function addCartPopUpResult() {
-    const boxContentPrice = document.querySelector('#box-content-price');
-    const emptyCartForm = document.querySelector('#empty-cart-form');
-    const btnCheckoutPopUp = document.querySelector('#btn-checkout-pop-up');
-
+    
         if(qtdProduct == 0) {
             boxContentPrice.classList.remove('active');
             emptyCartForm.classList.remove('active');
-            btnCheckoutPopUp.classList.remove('active');            
+            btnCheckoutPopUp.classList.remove('active'); 
+            spanQtdItem.classList.remove('active');
 
         } else {
             boxContentPrice.classList.add('active');
             emptyCartForm.classList.add('active');
             btnCheckoutPopUp.classList.add('active');
+            spanQtdItem.classList.add('active');
 
-            priceCalc();
-            
+            priceCalc();            
         }
-
 }
 
 function changeImage(imageIten) {
@@ -143,12 +147,27 @@ function resetBorder(){
 function priceCalc() {
     totalPrice = qtdProduct * productPrice;
     totalPriceDisplay.innerHTML =  '$'+totalPrice+",00";
+    spanQtdItem.innerHTML = qtdProduct;
 
     printData();
 }
 
 function printData() {
     qtdItemDisplayPopUp.innerHTML = qtdProduct;
+}
+
+function deleteCartItens() {
+    qtdProduct = 0;
+    totalPrice = "0,00";
+
+    qtdItemDisplay.innerHTML = qtdProduct;
+    totalPriceDisplay.innerHTML = totalPrice;
+
+    boxContentPrice.classList.remove('active');
+    emptyCartForm.classList.remove('active');
+    btnCheckoutPopUp.classList.remove('active'); 
+    spanQtdItem.classList.remove('active');
+
 }
 
 
