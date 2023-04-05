@@ -339,8 +339,6 @@ h1 {
         color: var(--navbarFontColor);
     }
 
-
-
     .btn-delete {
         width: 15px;
         margin: 0 5px;
@@ -372,6 +370,19 @@ h1 {
         margin: 0px auto;
     }
 
+    .btn-close-carousel {
+        height: 16px;
+        width: 15px;
+        background-image: url(../images/icon-close-white.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 8.5vh 66vw;
+    }
+
+    .btn-close-carousel:hover {
+        background-image: url(../images/icon-close-selected.svg);
+    }
+
     .background-carousel {
         display: none;
         position: absolute;
@@ -397,13 +408,13 @@ h1 {
     }
     
     .btn-img-previous {
+        position: absolute;
         float: left;
         border-radius: 50px;
         height: 40px;
         width: 40px;
-        margin: 30vh 0;
+        margin: 32.8vh 0;
         background-color: #fff;
-        
     }
 
     .btn-img-previous img {
@@ -411,18 +422,26 @@ h1 {
         margin-right: 5px;
     }
 
+    .btn-img-previous:hover {
+        border: solid #ff7d1b;
+    }
+
     .btn-img-next {
         float: right;
         border-radius: 50px;
         height: 40px;
         width: 40px;
-        margin: 30vh 0;
+        margin: 32.8vh 0;
         background-color: #fff;
     }
 
     .btn-img-next img {
         margin-top: 5px;
         margin-left: 5px;
+    }
+
+    .btn-img-next:hover {
+        border: solid #ff7d1b;
     }
 
     .image-thumbnail {

@@ -92,8 +92,9 @@
         margin: 10px 0;
     }
 
-
-
+    .btn-close-carousel {
+        display: none;
+    }
 
     .principal-image-slide-carousel {
         background-image: url(../images/image-product-1.jpg);
