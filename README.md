@@ -1,4 +1,4 @@
-# E-commerce product page<
+# E-commerce product page
 
 Nesse projeto será desenvolvido a página de um site e-commerce para vendas de tênis. O site terá layout com versão para desktop e também mobile. 
 
