@@ -29,7 +29,7 @@ Também na versão mobile:
 
 No link você será direcionado para o deploy dessa aplicação em funcionamento:
 
-- Gerador de ConcelhosI [Gerador de Concelhos](https://advice-generator-app-main-he4ihxgz8-boarinilucas.vercel.app/)
+- E-commerce [E-commerce](https://ecommerce-product-page-main-gamma.vercel.app/)
 
 ### Meu Processo
 
